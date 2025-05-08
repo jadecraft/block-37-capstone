@@ -7,6 +7,8 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const JWT = process.env.JWT || "shhh";
 
+
+
 const createTables = async () => {
   const SQL = `
     DROP TABLE IF EXISTS user_products;
